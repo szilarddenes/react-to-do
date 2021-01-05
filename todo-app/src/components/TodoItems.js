@@ -4,7 +4,7 @@ export class TodoItems extends Component {
     render() {
         return (
             <div>
-                {this.props.todo.title} 
+                <p>   {this.props.todo.title} </p>
             </div>
         )
     }
